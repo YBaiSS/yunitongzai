@@ -51,8 +51,7 @@ tongzhihui-skill/
 
 - **作为 dot-skill 元技能安装**：用 dot-skill 引擎从本仓库安装，会自动解析
   `manifest.json` 并生成 slash command（默认 `celebrity-tongzhihui-academic-writing`）。
-- **手动放入 WorkBuddy**：将整个目录复制到 `~/.workbuddy/skills/tongzhihui-academic-writing/`
-  即可在对话中调用。
+- **手动放入agent**：将整个目录复制到相应目录中即可在对话中调用。
 
 ## 数据来源与隐私
 
