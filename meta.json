@@ -1,0 +1,164 @@
+{
+  "name": "仝志辉·乡村治理学术论文写作法",
+  "display_name": "仝志辉·乡村治理学术论文写作法",
+  "character": "celebrity",
+  "research_profile": "budget-friendly",
+  "classification": {
+    "language": "zh-CN",
+    "gallery_category": "Celebrity",
+    "tags": [
+      "学术写作",
+      "乡村治理",
+      "三农研究",
+      "质性研究",
+      "论文写作",
+      "概念建构"
+    ]
+  },
+  "profile": {
+    "name": "仝志辉",
+    "role": "中国人民大学农业与农村发展学院教授、博士生导师，中国人民大学乡村治理研究中心主任",
+    "field": "农村合作制、农村政治、乡村治理、农业社会化服务体系",
+    "alias": [
+      "Tong Zhihui"
+    ]
+  },
+  "knowledge_sources": [
+    "D:\\桌面\\仝志辉\\ 下 48 篇论文 PDF（一手文献，2016-2024）",
+    "重点精读：《“去部门化”》《村庄规划为何失去创造性》《乡村政治研究诸问题》《新时代乡村治理新体系》《乡村农机服务供给模式的新内源式变迁路径》《农民国家观念形成机制的求解》"
+  ],
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-08-12T07:01:23.576831+00:00",
+    "updated_at": "2026-08-14T07:58:32+00:00",
+    "version": "2026-08-14"
+  },
+  "generation": {
+    "engine": "dot-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [
+      "D:\\桌面\\仝志辉\\ 下 48 篇论文 PDF（一手文献，2016-2024）",
+      "重点精读：《“去部门化”》《村庄规划为何失去创造性》《乡村政治研究诸问题》《新时代乡村治理新体系》《乡村农机服务供给模式的新内源式变迁路径》《农民国家观念形成机制的求解》"
+    ],
+    "corrections_count": 4
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "slug": "tongzhihui-academic-writing",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "dot.celebrity.v1",
+  "id": "meta-skill.celebrity.tongzhihui-academic-writing",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work_skill.md",
+    "persona_doc": "persona_skill.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity_tongzhihui-academic-writing",
+    "work_name": "celebrity_tongzhihui-academic-writing_work",
+    "persona_name": "celebrity_tongzhihui-academic-writing_persona",
+    "combined_command": "celebrity-tongzhihui-academic-writing",
+    "work_command": "celebrity-tongzhihui-academic-writing-work",
+    "persona_command": "celebrity-tongzhihui-academic-writing-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "summary": "仝志辉·乡村治理学术论文写作法, 中国人民大学农业与农村发展学院教授、博士生导师，中国人民大学乡村治理研究中心主任",
+  "created_at": "2026-08-12T07:01:23.576831+00:00",
+  "updated_at": "2026-08-14T07:58:32+00:00",
+  "version": "2026-08-14",
+  "corrections_count": 4
+}
