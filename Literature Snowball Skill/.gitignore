@@ -1,0 +1,17 @@
+# 扫描产物（本地生成，不入库）
+_检索扫描/
+*.pyc
+__pycache__/
+
+# 用户文献与个人研究文件（绝不入库）
+*.pdf
+*.docx
+*.doc
+_检索地图.md
+研究提炼.md
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
