@@ -18,7 +18,7 @@ This skill distills the academic paper writing methodology of Professor Tong Zhi
 
 At its core, the skill teaches a six-step writing method: (1) problem discovery through "policy problematization"—turning repeatedly-deployed yet underperforming policies into objective academic questions; (2) concept construction first, where every study must advance a core concept or proposition (e.g., "de-departmentalization," "village community," "social connectedness"); (3) a four-actor analytical framework—state, government departments, local government, and farmers—whose relationships matter more than the actors themselves; (4) three canonical argument structures for policy diagnosis, theory-borrowing case analysis, and academic dispute response; (5) thick description of anonymized yet data-rich village cases; and (6) standardized output norms for titles, abstracts, and footnotes.
 
-The skill encodes Tong's distinctive intellectual stance: centering farmer subjectivity, farmer organization, and the village community, while critically interrogating China's departmental governance structure. It preserves his signature moves—defining concepts before deployment, using concession-plus-elevation rhetoric, and reframing rather than rejecting mainstream narratives. A built-in "anti-AI" self-check guards against mechanical phrasing, and an expression-layer module switches between academic and natural written registers. For interview-based reports, it enforces empirical discipline: explicit source attribution, removal of bracketed asides, and verification of speaker identity. Papers are evaluated against four criteria—concept validity, mechanism disclosure, explanatory increment, and the farmer-subjectivity stance. It covers the full range of paper types Tong pioneered: policy-diagnosis essays, theory-borrowing case studies, academic dispute responses, historical case research, and single-village thick descriptions. Built from 48 first-hand papers, it is a practical companion for researchers and graduate students writing within the Chinese rural studies tradition, activated as a first-person "author" persona with an AI-perspective disclaimer.
+The skill encodes Tong's distinctive intellectual stance: centering farmer subjectivity, farmer organization, and the village community, while critically interrogating China's departmental governance structure. It preserves his signature moves—defining concepts before deployment, using concession-plus-elevation rhetoric, and reframing rather than rejecting mainstream narratives. A built-in "anti-AI" self-check guards against mechanical phrasing, and register is selected by text genre rather than by task type: the skill maintains two registers, academic and report, with an explicit baseline-difference table between them. The academic register follows positive norms—sentence-length distribution, concept definition, argumentative connectives, citation practice—derived statistically from 37 of the author's own papers and more than 680,000 characters of published prose. A "structural breakthrough" clause lets the skill reorder paragraphs and argumentative devices instead of only polishing surfaces, while the thinking layer and the quality standards (substantiated claims, source discipline, hedged judgment, banned phrasings) stay fixed. For interview-based reports, it enforces empirical discipline: explicit source attribution, removal of bracketed asides, and verification of speaker identity. Papers are evaluated against four criteria—concept validity, mechanism disclosure, explanatory increment, and the farmer-subjectivity stance. It covers the full range of paper types Tong pioneered: policy-diagnosis essays, theory-borrowing case studies, academic dispute responses, historical case research, and single-village thick descriptions. Built from 48 first-hand papers, it is a practical companion for researchers and graduate students writing within the Chinese rural studies tradition, activated as a first-person "author" persona with an AI-perspective disclaimer.
 
 ## 中文简介
 
@@ -26,7 +26,9 @@ The skill encodes Tong's distinctive intellectual stance: centering farmer subje
 
 - **六步写作法**：选题入口 → 概念建构 → 四方主体框架 → 论证骨架 → 案例深描 → 规范输出
 - **多元主体分析框架**：国家—部门—地方政府—农户
-- **表达层规则**：思维层/表达层分离、语体开关、反 AI 味自检清单、访谈报告实证纪律
+- **表达层规则与语体系统**：思维层/表达层分离；语体按文本体裁判定（学术语体/报告语体两类，附两语体基线差异对照表），学术语体正向规范依 37 篇论文、68 万余字语料统计建立
+- **行文突破条款**：结构与出场顺序可重构、句式与装置不设配额；思维层与质量标准（言之有物、来源纪律、留余地、永久禁用句式）不受影响
+- **案例类型专项细则与自检清单**：文献综述评述、经验分析段落、概念定义与转变描述、读书汇报/述评、访谈报告；通用/学术语体/报告语体三套输出前自检
 - **人格层**：以"笔者"视角回应的首人称 persona，以及永久禁用"不是……而是……"对举句式，反映出对于AI化写作打心底里的厌恶
 
 ## 仓库结构
@@ -55,8 +57,8 @@ tongzhihui-skill/
 ## 数据来源与隐私
 
 本 skill 的方法论从 48 篇公开/授权的一手论文（2016–2024）反推而来，并已在本地经过多次复盘修改。原始复盘记录中涉及的真实地名、企业名与受访人均已**匿名化**（如"某县""甲企业""受访者甲"），
-仅保留可复用的写作方法论，不含可识别的私人信息。
+仅保留可复用的写作方法论，不含可识别的私人信息。文末修正日志记录历次写作复盘的方法迭代（更新至 2026-10），其内容按同一口径匿名化。
 
 ## License
 
-[MIT](./LICENSE) © 2026 <YOUR-NAME>
+[MIT](./LICENSE) © 2026 YBaiSS
