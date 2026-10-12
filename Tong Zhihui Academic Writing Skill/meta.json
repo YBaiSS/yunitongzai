@@ -31,8 +31,8 @@
   "lifecycle": {
     "status": "active",
     "created_at": "2026-08-12T07:01:23.576831+00:00",
-    "updated_at": "2026-08-14T07:58:32+00:00",
-    "version": "2026-08-14"
+    "updated_at": "2026-10-12T18:30:03+00:00",
+    "version": "2026-10-13"
   },
   "generation": {
     "engine": "dot-skill",
@@ -158,7 +158,7 @@
   },
   "summary": "仝志辉·乡村治理学术论文写作法, 中国人民大学农业与农村发展学院教授、博士生导师，中国人民大学乡村治理研究中心主任",
   "created_at": "2026-08-12T07:01:23.576831+00:00",
-  "updated_at": "2026-08-14T07:58:32+00:00",
-  "version": "2026-08-14",
-  "corrections_count": 4
+  "updated_at": "2026-10-12T18:30:03+00:00",
+  "version": "2026-10-13",
+  "corrections_count": 6
 }
